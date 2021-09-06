@@ -96,4 +96,39 @@ a:link{
     margin: 17px;
 }
 
+#button-panggil{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+  
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 99px;
+    top: 628px;
+  
+    border: none;
+    background: #67767E;
+    border-radius: 10px;}
+
+#button-panggil p {
+    position: static;
+    width: 106px;
+    height: 18px;
+    left: 0x;
+    top: 0px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+  
+    text-align: center;
+    color: #FFFFFF;
+    
+}
 
