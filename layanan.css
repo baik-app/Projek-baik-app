@@ -54,7 +54,9 @@ ul{
 a:link{
     text-decoration: none;
 }
-
+.buttonlayanan{
+    margin-top: 100px;
+}
 .buttonlayanan .a{
     position: absolute;
     width: 301px;
@@ -94,16 +96,17 @@ a:link{
     border-radius: 10px;
     padding: 12px 0px 12px 12px;
     margin: 17px;
+    align-items: center;
 }
 
 #button-panggil{
-    display: flex; 
+    display:flex; 
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: auto;
   
-    position: absolute;
+    position:absolute;
     width: 162px;
     height: 40px;
     left: 99px;
@@ -112,8 +115,9 @@ a:link{
     border: none;
     background: #67767E;
     border-radius: 10px;}
-
-#button-panggil p {
+    
+    
+#button-panggil a {
     position: static;
     width: 106px;
     height: 18px;
