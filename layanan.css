@@ -51,13 +51,15 @@ ul{
     list-style: none;
 }
 
-.buttonlayanan {
+.buttonlayanan .a{
     position: absolute;
     width: 301px;
     height: 19px;
     left: 35px;
     top: 268px;
-    
+}
+
+.buttonlayanan p{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
