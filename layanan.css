@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+svg{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 8px;
+    top: 8px;
+}
+.layanan-telpon{
+  --tw-bg-opacity: 1;
+  width: 360px;
+  /* max-width: 360px; */
+  /* width: 100%; */
+  height: 640px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  /* top: 40px;
+  padding: 0px 16px 80px; */
+  /* min-height: calc(100vh - 60px); */
+  position: relative;
+  width: 360px;
+  height: 683px;
+  overflow-y: scroll;
+  
+  background: linear-gradient(193.47deg, #B4D4E2 9.66%, #7D9EAD 64.39%);
+  
+  }
+
+.judullayanan p{
+    /* Silahkan pilih nomor yang akan dihubungi */
+    position: absolute;
+    width: 272px;
+    height: 47px;
+    left: 41px;
+    top: 54px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+
+
+ul{
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+.buttonlayanan{
+    margin-top: 100px;
+}
+li :hover{
+    background: #57D389;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+.buttonlayanan p{
+    width: 301px;
+    height: 16px;
+    left: 35px;
+    top: 149px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    /* or 24px */
+    
+    display: flex;
+    align-items: center;
+    padding: 12px 0px 12px 12px;
+    
+    color: #2C1D1D;
+/*     
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  
+}
+
+.buttonlayanan ul{
+    padding: 35px 0px 0px 0px;
+  
+}
+
+.buttonlayanan li{
+    width: 308px;
+    height: 43px;
+    top: 136px;
+    left:23px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+     /* padding: 12px 0px 12px 12px; */
+    margin: 17px; 
+    align-items: center;
+}
+
+#button-panggil{
+    display:flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+  
+    /* position:-webkit-sticky; */
+    position: sticky;
+
+    width: 162px;
+    height: 40px;
+    left: 99px;
+    top: 628px; 
+    border: none;
+    background: #67767E;
+    border-radius: 10px;}
+    
+    
+#button-panggil a {
+    position: static;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+  
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
