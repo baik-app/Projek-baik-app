@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form1.css" />
+    <script src=""></script>
+  </head>
+  <body>
+    <div class="contenform">
+      <!-- up -->
+      <div class="back">
+        <svg
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.9998 10.6665L10.6665 15.9998M10.6665 15.9998L15.9998 21.3332M10.6665 15.9998H21.3332M29.3332 15.9998C29.3332 23.3636 23.3636 29.3332 15.9998 29.3332C8.63604 29.3332 2.6665 23.3636 2.6665 15.9998C2.6665 8.63604 8.63604 2.6665 15.9998 2.6665C23.3636 2.6665 29.3332 8.63604 29.3332 15.9998Z"
+            stroke="#090A0A"
+            stroke-width="1.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+      <div class="judul"><p>Formulir Laporan</p></div>
+      <hr color="gray" />
+
+      <div class="formi">
+        <form>
+          <table>
+            <tr>
+              Pengirim
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="user" />Anonim
+                <br />
+                <input type="radio" name="user" />Akun Pengguna
+              </td>
+            </tr>
+            <tr>
+              <td>judul Laporan</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Isi Laporan</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Lampiran</td>
+              <td><input type="file" id="myfile" name="myfile" /></td>
+            </tr>
+            <tr>
+              <td>Tempat Kejadian</td>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <td>Tanggal Kejadian</td>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <td>Instansi Tujuan</td>
+              <td>
+                <select>
+                  <option>Polres Cimahi</option>
+                  <option>Pemerintah Pusat Cimahi</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Kategori Pelaporan</td>
+              <td>
+                <select>
+                  <option>Corona Virus</option>
+                  <option>Pencurian</option>
+                  <option>Penipuan</option>
+                  <option>Ekonomi dan Keuangan</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="kirim">
+        <input type="submit" />
+      </div>
+    </div>
+  </body>
+</html>
