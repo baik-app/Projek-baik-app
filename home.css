@@ -1,0 +1,291 @@
+.home {
+    /* Halaman Pelaporan */
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin: 0px auto;
+  box-sizing: border-box;
+  top: 0px;
+  padding: 0px 16px 80px;
+  
+  background: linear-gradient(180deg, #7D9EAD 0%, #B4D4E2 85.66%);
+  }
+.profil {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  left: 14px;
+  top: 12px;
+  
+  background: linear-gradient(180deg, #CDD0D2 0%, #193F52 100%);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+.box-opsi {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 86.09%;
+  bottom: 0%;
+  
+  background: #B4D4E2;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.aktivitas {
+  position: absolute;
+  width: 96px;
+  height: 58px;
+  left: 248px;
+  top: 567px;
+}
+.telepon {
+  position: absolute;
+  width: 96px;
+  height: 58px;
+  left: 16px;
+  top: 567px;    
+}
+.lapor {
+  position: absolute;
+  width: 96px;
+  height: 58px;
+  left: 132px;
+  top: 567px;
+  }
+.home h1 {
+  position: absolute;
+  left: 145.2px;
+  top: 21px;
+  bottom: 595px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1A1717;
+}
+.garis {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  bottom: 580px;
+  border: 1px solid #666666;
+  box-shadow: 2px 3px 6px #000000;
+}
+.opsi-pelaporan {
+  position: absolute;
+  left: 5.56%;
+  right: 52.78%;
+  top: 12.5%;
+  bottom: 80%;
+  
+  background: #22546D;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -25px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.opsi-pelaporan h2 {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  top: 8px;
+  bottom: 9px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  text-align: center;
+  
+  color: #F3F7FF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.opsi-aspirasi-off {
+  position: absolute;
+  left: 52.78%;
+  right: 5.56%;
+  top: 12.5%;
+  bottom: 80%;
+  
+  background: #67767E;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: inset 0px -25px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.opsi-aspirasi-off h2 {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  top: 8px;
+  bottom: 9px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  text-align: center;
+  
+  color: #F3F7FF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* bagian aspirasi */
+.opsi-pelaporan-off {
+  position: absolute;
+  left: 5.56%;
+  right: 52.78%;
+  top: 12.5%;
+  bottom: 80%;
+
+  background: #67767E;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -25px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.opsi-pelaporan-off h2 {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  top: 8px;
+  bottom: 9px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  text-align: center;
+  
+  color: #F3F7FF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.opsi-aspirasi {
+  position: absolute;
+  left: 52.78%;
+  right: 5.56%;
+  top: 12.5%;
+  bottom: 80%;
+  
+  background: #22546D;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: inset 0px -25px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.opsi-aspirasi h2 {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  top: 8px;
+  bottom: 9px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  text-align: center;
+  
+  color: #F3F7FF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.deskripsi {
+  position: absolute;
+  left: 4.44%;
+  right: 4.44%;
+  top: 21.25%;
+  bottom: 15.16%;
+  
+  background: #22546D;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.deskripsi p {
+  position: absolute;
+  left: 32px;
+  right: 32px;
+  top: 28px;
+  bottom: 183px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+}
+.buat {
+  position: absolute;
+  left: 67px;
+  right: 67px;
+  top: 345px;
+  bottom: 22px;
+
+  width: 194px;
+  height: 40px;
+  background: rgba(36, 153, 69, 0.99);
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: inset 0px -25px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.buat img {
+  position: absolute;
+  left: 8px;
+  right: 155px;
+  top: 4px;
+  bottom: 4px;
+}
+.buat h2 {
+  position: absolute;
+  left: 48px;
+  right: 9px;
+  top: 4px;
+  bottom: 4px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 30px */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}

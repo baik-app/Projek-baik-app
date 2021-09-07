@@ -12,7 +12,7 @@ body {
   height: 640px;
   margin: 0px auto;
   box-sizing: border-box;
-  top: 40px;
+  top: 0px;
   padding: 0px 16px 80px;
   /* min-height: calc(100vh - 60px); */
 }
@@ -169,3 +169,4 @@ body {
   text-align: center;
   color: #D3E1FE;
 }
+
