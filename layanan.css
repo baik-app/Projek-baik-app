@@ -3,12 +3,10 @@
 body {
     font-family: "Poppins", sans-serif;
   }
-svg{
+.close {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    left: 8px;
-    top: 8px;
+    left: 16px;
+    top: 16px;
 }
 .layanan-telpon{
   --tw-bg-opacity: 1;
