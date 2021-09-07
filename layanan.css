@@ -3,7 +3,13 @@
 body {
     font-family: "Poppins", sans-serif;
   }
-
+svg{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 8px;
+    top: 8px;
+}
 .layanan-telpon{
   --tw-bg-opacity: 1;
   width: 360px;
@@ -57,28 +63,30 @@ a:link{
 .buttonlayanan{
     margin-top: 100px;
 }
-.buttonlayanan .a{
-    position: absolute;
-    width: 301px;
-    height: 19px;
-    left: 35px;
-    top: 268px;
+ ul :hover{
+    background: #57D389;
+   border-radius: 10px;
+    align-items: center;
 }
-
 .buttonlayanan p{
+    width: 301px;
+    height: 16px;
+    left: 35px;
+    top: 149px;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 150%;
     /* or 24px */
     
     display: flex;
     align-items: center;
+    padding: 12px 0px 12px 12px;
     
     color: #2C1D1D;
-    
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*     
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   
 }
 
@@ -90,12 +98,13 @@ a:link{
 .buttonlayanan li{
     width: 308px;
     height: 43px;
-    top: 556px;
+    top: 136px;
+    left:23px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    padding: 12px 0px 12px 12px;
-    margin: 17px;
+     /* padding: 12px 0px 12px 12px; */
+    margin: 17px; 
     align-items: center;
 }
 
@@ -106,12 +115,13 @@ a:link{
     align-items: center;
     padding: auto;
   
-    position:absolute;
+    /* position:-webkit-sticky; */
+    position: sticky;
+
     width: 162px;
     height: 40px;
     left: 99px;
-    top: 628px;
-  
+    top: 628px; 
     border: none;
     background: #67767E;
     border-radius: 10px;}
@@ -119,10 +129,6 @@ a:link{
     
 #button-panggil a {
     position: static;
-    width: 106px;
-    height: 18px;
-    left: 0x;
-    top: 0px;
   
     font-family: Poppins;
     font-style: normal;
