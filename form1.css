@@ -11,27 +11,35 @@ body {
   height: 640px;
   margin: 0px auto;
   box-sizing: border-box;
-  top: 40px;
+  top: 0px;
   padding: 0px 16px 80px;
 }
+
 .back {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 16px;
+  position: relative;
   top: 16px;
+  left: 50px;
 }
-hr {
+/* hr {
   margin-top: 32px;
-  color: aqua;
+  color: aqua; */
 }
 
 .judul {
-  position: relative;
+  position: absolute;
   top: 20px;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
 }
-.kirim {
-}
+.garis {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  bottom: 580px;
+  border: 1px solid #666666;
+  box-shadow: 2px 3px 6px #000000;
+/* .formi {
+  position: absolute;
+} */
