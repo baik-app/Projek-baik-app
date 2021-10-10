@@ -8,70 +8,109 @@
     <link rel="stylesheet" href="form1.css" />
     <script src=""></script>
   </head>
+
   <body>
     <div class="contenform">
       <!-- up -->
-      <div class="back">
+      <!-- <div class="back">
         <a href="home-pelaporan.html"
           ><img src="assets/arrow-back.svg" alt=""
         /></a>
       </div>
       <div class="judul"><p>Formulir Laporan</p></div>
-      <hr color="gray" />
-
+      <hr color="gray" /> -->
+      <h1>Formulir Pelaporan</h1>
+      <a href="home-pelaporan.html"
+        ><img class="back" src="assets/arrow-back.svg" alt=""
+      /></a>
+      <div class="garis"></div>
+      <br />
+      <br /><br />
       <div class="formi">
         <form>
           <table>
-            <tr>
-              Pengirim
-            </tr>
-            <tr>
-              <td>
-                <input type="radio" name="user" />Anonim
-                <br />
-                <input type="radio" name="user" />Akun Pengguna
-              </td>
-            </tr>
-            <tr>
-              <td>judul Laporan</td>
-              <td><input type="text" /></td>
-            </tr>
-            <tr>
-              <td>Isi Laporan</td>
-              <td><input type="text" /></td>
-            </tr>
-            <tr>
-              <td>Lampiran</td>
-              <td><input type="file" id="myfile" name="myfile" /></td>
-            </tr>
-            <tr>
-              <td>Tempat Kejadian</td>
-              <td><input type="text" /></td>
-            </tr>
-            <tr>
-              <td>Tanggal Kejadian</td>
-              <td><input type="date" /></td>
-            </tr>
-            <tr>
-              <td>Instansi Tujuan</td>
-              <td>
-                <select>
-                  <option>Polres Cimahi</option>
-                  <option>Pemerintah Pusat Cimahi</option>
-                </select>
-              </td>
-            </tr>
-            <tr>
-              <td>Kategori Pelaporan</td>
-              <td>
-                <select>
-                  <option>Corona Virus</option>
-                  <option>Pencurian</option>
-                  <option>Penipuan</option>
-                  <option>Ekonomi dan Keuangan</option>
-                </select>
-              </td>
-            </tr>
+            <br />
+            <label for="akun">Pengirim : </label
+            ><br />
+             
+            <input type="radio" id="anonim" name="pengirim" value="Anonim" />
+             
+            <label for="anonim">Anonim</label
+            ><br />
+             
+            <input
+              type="radio"
+              id="akun"
+              name="pengirim"
+              value="Akun-Penguna"
+            />
+             
+            <label for="akun">Akun Pengguna</label>
+            <br /><br />
+
+            <label for="fname">Judul Laporan</label
+            ><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Judul Laporan"
+            /><br />
+            <br />
+            <label for="lname">Isi Laporan</label
+            ><br />
+            <textarea
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Isi Laporan"
+            ></textarea
+            ><br /><br />
+
+            <label for="fname">Lampiran</label
+            ><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Link Lampiran"
+            /><br />
+            <br />
+            <label for="fname">Tempat Kejadian</label
+            ><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Tempat Kejadian"
+            />
+            <br /><br />
+            <label for="fname">Tanggal Kejadian</label>
+            <br />
+            <input
+              type="date"
+              id="fname"
+              name="fname"
+              placeholder="Masukan Tanggal Kejadian"
+            /><br /><br />
+
+            <label for="instansi">Instansi Tujuan</label>
+            <br />
+            <select id="instansi" name="instansi">
+              <option value="Polres">Polres Cimahi</option>
+              <option value="Pemerintah">Pemerintah Pusat Cimahi</option>
+            </select>
+            <br /><br />
+
+            <label for="Kategori">Kategori Pelaporan</label>
+            <br />
+            <select id="instansi" name="instansi">
+              <option value="Corona">Corona Virus</option>
+              <option value="Pencurian">Pencurian</option>
+              <option value="Penipuan">Penipuan</option>
+              <option value="Ekonomi">Ekonomi dan Keuangan</option>
+            </select>
+            <br /><br />
           </table>
         </form>
       </div>

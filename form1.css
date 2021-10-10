@@ -14,11 +14,22 @@ body {
   top: 0px;
   padding: 0px 16px 80px;
 }
-
-.back {
-  position: relative;
+.contenform h1 {
+  position: absolute;
+  font-size: 21px;
+  left: 80px;
+  right: 80px;
   top: 16px;
-  left: 50px;
+  bottom: 595px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.back {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  left: 14px;
+  top: 12px;
 }
 /* hr {
   margin-top: 32px;
@@ -40,6 +51,8 @@ body {
   bottom: 580px;
   border: 1px solid #666666;
   box-shadow: 2px 3px 6px #000000;
-/* .formi {
-  position: absolute;
-} */
+}
+.kirim {
+  align-items: center;
+  text-align: center;
+}
